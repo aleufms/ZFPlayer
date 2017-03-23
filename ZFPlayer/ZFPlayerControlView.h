@@ -25,6 +25,15 @@
 #import "ASValueTrackingSlider.h"
 #import "ZFPlayer.h"
 
-@interface ZFPlayerControlView : UIView 
+@interface ZFPlayerControlView : UIView
+
+- (UIButton *)failBtn;
+- (UIButton *)startBtn;
+- (UIButton *)repeatBtn;
+- (UIButton *)backBtn;
+- (ASValueTrackingSlider *)videoSlider;
+- (UIProgressView *)bottomProgressView;
+
+- (void)zf_playerItemStatusFailed:(NSError *)error;
 
 @end
