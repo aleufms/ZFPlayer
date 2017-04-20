@@ -1410,11 +1410,11 @@ typedef NS_ENUM(NSInteger, PanDirection){
 
 - (void)setPlayerPushedOrPresented:(BOOL)playerPushedOrPresented {
     _playerPushedOrPresented = playerPushedOrPresented;
-    if (playerPushedOrPresented) {
-        [self pause];
-    } else {
-        [self play];
-    }
+//    if (playerPushedOrPresented) {
+//        [self pause];
+//    } else {
+//        [self play];
+//    }
 }
 #pragma mark - Getter
 
